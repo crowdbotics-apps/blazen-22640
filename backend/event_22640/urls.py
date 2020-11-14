@@ -35,9 +35,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "Blazen"
-admin.site.site_title = "Blazen Admin Portal"
-admin.site.index_title = "Blazen Admin"
+admin.site.site_header = "GoBlazen"
+admin.site.site_title = "GoBlazen Admin Portal"
+admin.site.index_title = "GoBlazen Admin"
 
 # swagger
 api_info = openapi.Info(
